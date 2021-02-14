@@ -1,0 +1,31 @@
+﻿@using TechJobs.Models
+@model Job
+
+<table class="job-listing">
+    @{ 
+        <tr>
+            <th>Name: </th>
+            <td>@Model.Name</td>
+        </tr>
+
+        <tr>
+            <th>Employer: </th>
+            <td>@Model.Employer</td>
+        </tr>
+
+        <tr>
+            <th>Location: </th>
+            <td>@Model.Location</td>
+        </tr>
+
+        <tr>
+            <th>Postion Type: </th>
+            <td>@Model.PositionType</td>
+        </tr>
+
+        <tr>
+            <th>Core Competency: </th>
+            <td>@Model.CoreCompetency</td>
+        </tr>
+    }
+</table>
